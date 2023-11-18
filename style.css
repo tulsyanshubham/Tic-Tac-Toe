@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    /* background-color: rgba(0, 0, 0, 0.893); */
+    background-color: rgb(18, 17, 19);
+
+}
+
+a {
+    text-decoration: none;
+    display: contents;
+}
+
+/* nav::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    height: 15%;
+    width: 100%;
+} */
+nav {
+    /* background-color: rgb(41, 38, 38); */
+    /* background-color: rgb(18, 17, 19); */
+    background-color: rgba(0, 0, 0, 0.893);
+    padding: 2px;
+    border-bottom: 0.3px solid rgb(96, 92, 97);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+li {
+    display: contents;
+}
+
+.logo {
+    width: 3.5vw;
+    margin: -1px 0.5vw;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(1px 1px 20px rgb(111, 45, 150));
+}
+
+.navv {
+    display: inline-block;
+    font-size: 3vw;
+    margin: 0px 1vw;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #7e19b9;
+}
+
+/* Game */
+.game {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: inline-block;
+    display: grid;
+    grid-template-rows: repeat(3, 12vw);
+    grid-template-columns: repeat(3, 12vw);
+    /* background-color: blue; */
+    margin: 30px 5vw;
+}
+
+.box {
+    font-size: 8vw;
+    /* text-align: center; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.65vw solid #7e19b9;
+    font-family: 'Raleway', sans-serif;
+    /* border-radius: 5px; */
+}
+
+.box:hover {
+    background-color: rgba(80, 32, 108, 0.452);
+    /* background-color: rgb(64, 64, 64); */
+}
+
+.top {
+    border-top: none;
+}
+
+.bottom {
+    border-bottom: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.right {
+    border-right: none;
+}
+
+
+/* info */
+.info {
+    margin: 20px 0px;
+}
+
+.info div {
+    font-size: 4.5vw;
+}
+
+.info div button {
+    size: 23vw;
+    font-size: 3vw;
+    padding: 3px 0px;
+}
+
+button {
+    border: 0.7vw solid rgb(53, 20, 72);
+    background-color: rgb(80, 32, 108);
+    border-radius: 2vw;
+    width: 17vw;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(80, 32, 108, 0.896);
+}
+
+button:active {
+    background-color: rgba(80, 32, 108, 0.668);
+}
+
+.imgbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgbox img {
+    /* width:17vw; */
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+#score {
+    display: flex;
+    flex-direction: row;
+}
+
+/* line */
+.line {
+    width: 0;
+    /* width:31vw; */
+    height: 11px;
+    background-color: green;
+    position: absolute;
+    border-radius: 5px;
+    left: 2.5vw;
+    top: 5.8vw;
+    transform: translate(0vw, 0vw) rotate(0deg);
+    transition: width 1s ease-in-out;
+}
+
+.container {
+    position: relative;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+}
+
+.board {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.scdiv {
+    padding: 0.3vw 1.5vw;
+    border: 0.4vw solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scdiv span {
+    font-size: 4vw;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.round span,
+.names span {
+    color: #9e37d9;
+    font-weight: bold;
+}
+
+.tl {
+    border-top-left-radius: 10px;
+}
+
+.tr {
+    border-top-right-radius: 10px;
+}
+
+.bl {
+    border-bottom-left-radius: 10px;
+}
+
+.br {
+    border-bottom-right-radius: 10px;
+}

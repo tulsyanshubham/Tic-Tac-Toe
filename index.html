@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:wght@500&display=swap"
+            rel="stylesheet">
+        <link rel="shortcut icon" type="icon" href="./Images/icon.png">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./stylephone.css">
+
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href><img src="./Images/icon.png"
+                            alt="Image not Loaded" class="logo"></a></li>
+                <li><div class="navv">Tic Tac Toe</div></li>
+            </ul>
+        </nav>
+
+        <div class="game">
+            <div class="container">
+                <div class="line"></div>
+                <div class="box left top"><span class="sbox"></span></div>
+                <div class="box top"><span class="sbox"></span></div>
+                <div class="box top right"><span class="sbox"></span></div>
+                <div class="box left"><span class="sbox"></span></div>
+                <div class="box"><span class="sbox"></span></div>
+                <div class="box right"><span class="sbox"></span></div>
+                <div class="box left bottom"><span class="sbox"></span></div>
+                <div class="box bottom"><span class="sbox"></span></div>
+                <div class="box bottom right"><span class="sbox"></span></div>
+            </div>
+            <div class="info">
+                <div class="welcome">Welcome to Game</div>
+                <div class="turn">Turn for ❌</div>
+                <div>
+                    <button class="replay">Replay</button>
+                </div>
+                <div class="score">
+                    <div class="board">
+                        <div class="names scdiv tl"><span>Rounds</span></div>
+                        <div class="round scdiv tr"><span>0</span></div>
+                        <div class="names scdiv"><span>❌</span></div>
+                        <div class="xp scdiv"><span>0</span></div>
+                        <div class="names scdiv bl"><span>⭕</span></div>
+                        <div class="op scdiv br"><span>0</span></div>
+                    </div>
+                    <div class="imgbox">
+                        <img src="./Images/excited.gif" alt />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

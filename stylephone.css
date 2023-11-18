@@ -1,0 +1,58 @@
+@media screen and (max-width: 820px) {
+    .navv {
+        font-size: 6vw;
+    }
+
+    .logo {
+        width: 7vw;
+    }
+
+    .welcome{
+        display: none;
+    }
+
+    .game {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 75vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        grid-template-rows: repeat(3, 25vw);
+        grid-template-columns: repeat(3, 25vw);
+    }
+
+    .box {
+        font-size: 18vw;
+    }
+
+    .info {
+        display: inline-block;
+        margin-left: 11vw;
+    }
+
+    .info div {
+        font-size: 10vw;
+    }
+
+    .info div button {
+        font-size: 4.5vw;
+    }
+
+    button {
+        border-width: 0.9vw;
+        width: 22vw;
+    }
+
+    .scdiv {
+        padding: 0.3vw 2.5vw;
+        border: 0.8vw solid white
+    }
+
+    .scdiv span {
+        font-size: 8vw;
+    }
+}
